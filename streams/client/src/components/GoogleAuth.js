@@ -13,6 +13,7 @@ class GoogleAuth extends React.Component {
         })
         .then(() => {
           this.auth = window.gapi.auth2.getAuthInstance();
+
           this.onAuthChange(this.auth.isSignedIn.get());
           this.auth.isSignedIn.listen(this.onAuthChange);
         });
@@ -56,7 +57,7 @@ class GoogleAuth extends React.Component {
   }
 
   render() {
-    return <div class="ui right-floated button">{this.renderAuthButton()}</div>;
+    return <div>{this.renderAuthButton()}</div>;
   }
 }
 
