@@ -39,7 +39,7 @@ class StreamList extends React.Component {
       return (
         <div style={{ textAlign: 'right' }}>
           <Link to="/streams/new" className="ui button primary">
-            Create Stream
+            Create New
           </Link>
         </div>
       );
