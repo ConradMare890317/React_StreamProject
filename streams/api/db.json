@@ -4,18 +4,6 @@
       "title": "hello",
       "description": "world",
       "id": 1
-    },
-    {
-      "title": "Hello World",
-      "description": "JSX",
-      "userId": "112720816351529407530",
-      "id": 2
-    },
-    {
-      "title": "Programmatic Navigation",
-      "description": "JSX",
-      "userId": "112720816351529407530",
-      "id": 3
     }
   ]
 }
