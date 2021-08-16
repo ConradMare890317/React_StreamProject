@@ -9,10 +9,10 @@ class StreamShow extends React.Component {
 
   render() {
     if (!this.props.stream) {
-      return <div>Loading...</div>
+      return <div>Loading...</div>;
     }
 
-  const { title, description } = this.props.stream;
+    const { title, description } = this.props.stream;
 
     return (
       <div>
@@ -28,6 +28,6 @@ const mapStateToProps = (state, ownProps) => {
 };
 
 export default connect(
-  mapStateToProps, 
-  { fetchStream })
-  (StreamShow);
+  mapStateToProps,
+  { fetchStream }
+)(StreamShow);

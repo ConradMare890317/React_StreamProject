@@ -39,7 +39,7 @@ class StreamForm extends React.Component {
           component={this.renderInput}
           label="Enter Description"
         />
-        <button className="ui button primary">Post</button>
+        <button className="ui button primary">Submit</button>
       </form>
     );
   }
