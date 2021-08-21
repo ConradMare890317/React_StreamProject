@@ -1,4 +1,3 @@
-/* eslint-disable import/no-anonymous-default-export */
 import _ from 'lodash';
 import {
   FETCH_STREAM,
@@ -8,6 +7,7 @@ import {
   DELETE_STREAM
 } from '../actions/types';
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default (state = {}, action) => {
   switch (action.type) {
     case FETCH_STREAMS:
